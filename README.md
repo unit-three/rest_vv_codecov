@@ -3,7 +3,7 @@
 [![Gitter](https://badges.gitter.im/repo.svg)](https://app.gitter.im/#/room/!fopQaELIbMGIwdwYRu:gitter.im)
 <!-- https://github.com/DAVFoundation/api_doc/issues/6 -->
 
-... from ['Nascent Road-map'](https://discord.com/channels/1258378561648197643/1258378561648197646/threads/1261313288411676672)
+... from Discord, ['Nascent Road-map'](https://discord.com/channels/1258378561648197643/1258378561648197646/threads/1261313288411676672)
 
 
 Testing and test-driven development is a good way to continue this journey following on from the learning materials.  
@@ -17,5 +17,10 @@ Checkpoints mentioned:
 
 3) **100% codecov :** Continue creating tests together and aim to  get codecov into the green and ideally 100% for openvar/rest_variantValidator via a fork. 
 
+<br>
 
-This repo 'rest_vv_codecov' is Checkpoint 1) Getting Started.
+
+### This repo 'rest_vv_codecov' is Checkpoint 1. Getting Started.
+
+
+[Can use .yml file to conda create env -f <filename>](https://docs.conda.io/projects/conda/en/latest/commands/env/create.html)
