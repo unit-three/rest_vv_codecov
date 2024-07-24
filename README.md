@@ -23,4 +23,4 @@ Checkpoints mentioned:
 ### This repo 'rest_vv_codecov' is Checkpoint 1. Getting Started.
 
 
-[Can use .yml file to conda create env -f <filename>](https://docs.conda.io/projects/conda/en/latest/commands/env/create.html)
+[Can use .yml file to conda env create -f <filename>](https://docs.conda.io/projects/conda/en/latest/commands/env/create.html)
