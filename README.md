@@ -24,3 +24,18 @@ Checkpoints mentioned:
 
 
 [Can use .yml file to conda env create -f <filename>](https://docs.conda.io/projects/conda/en/latest/commands/env/create.html)
+
+
+** Jérôme Cukier **
+built testing frameworks at GoogleAuthor has 4.4K answers and 89.3M answer viewsJun 17
+Related
+How effective are AI-generated unit tests in achieving good code coverage, and is that enough for reliable software testing?
+
+Codegen is very good at getting full code coverage. With state of the art tools you can definitely generate unit tests for every single branch of a piece of code in any common language.
+
+The problem with those tests is that:
+
+    they will assert that the code works as it is implemented, not as how it’s supposed to do things - a bit similar to how writing unit tests years after the fact.
+    These tests are typically not super legible. AI are not great at naming things or at generating meaningful use cases. Human-written tests are sometimes thought of as a way to explain what the code does, and code-gen’d tests are simply not good at that.
+
+Unit tests are usually a very safe investment because they are cheap to write and cheap to run but provide immediate value. LLM generated tests are even cheaper to write, though i’d argue the value is much less, and while the cost of running these tests is very low it’s not always negligible, so the question of their ROI isn’t trivial.
